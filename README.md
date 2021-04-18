@@ -1,19 +1,23 @@
 # News_Group
 
-. Imported the dataset and converted it to dataframe
+News.ipynb -->
 
-. Scraped 2 websites using BeautifulSoup
+. Imported the dataset from sklearn and converted it to dataframe
 
-. Conveted the scraped text to dataframe named testing
+. Removed \t and \n using regular expressions
 
-. Added b_labels according to the categories to both train and test data
+. Scraped a website using BeautifulSoup and stored its content in text1.txt
+
+. Conveted the scraped text and one word text in text2.txt file to dataframe named testing
+
+. Added target_num to the dataframe
 
 . Conveted text of the train and test data into unique tokens using Tokenizer
 
-. Created Model Usinf LSTM
+. Created Model Using LSTM
 
-. created news.csv file (file size too large to upload)
-
-. Trained and fitted the model (Not Complete.... Error showing RAM Full)
+. Trained and fitted the model with 10 epochs
 
 . Plotted the loss per iteration and accuracy per iteration
+
+. Saved the model
